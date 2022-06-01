@@ -1,0 +1,4 @@
+<img src="images/1.jpg" alt="#"width="500px" height="600px" class="d-block w-100 ">
+
+HEX code
+#696975
