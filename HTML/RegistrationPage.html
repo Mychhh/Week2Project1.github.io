@@ -6,7 +6,7 @@
     
     <link rel="stylesheet" href="../CSS/styling.css">
 
-    <link rel="icon" type="image/x-icon" href="C:\BootCamp\Project1\Pictures\favicon_io\favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="C:\BootCamp\Week2\Project1\Pictures\favicon_io\favicon-16x16.png">
     
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
@@ -15,6 +15,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -23,7 +26,7 @@
         <nav class = "navbar navbar-expand-sm  navbar-dark bg-dark p-4">
 
             <a href = "LandingPage.html" class = "navbar-brand text-white mb-0 h1">
-                <img src = "C:\BootCamp\Project1\Pictures\profile.png" class="rounded-circle" alt = "Profile" 
+                <img src = "C:\BootCamp\Week2\Project1\Pictures\profile.png" class="rounded-circle" alt = "Profile" 
                 width = "40" height = "40" > Home Page             
             </a>
     
@@ -76,7 +79,7 @@
                             <div class="d-flex flex-row align-items-center mb-4">
                               <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                               <div class="form-outline flex-fill mb-0">
-                                <input type="text" id="formName" class="form-control" />
+                                <input type="text" id="formName" class="form-control" placeholder="Mychael" />
                                 <label class="form-label" for="formName">Your Name</label>
                               </div>
                             </div>
@@ -84,7 +87,7 @@
                             <div class="d-flex flex-row align-items-center mb-4">
                               <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                               <div class="form-outline flex-fill mb-0">
-                                <input type="email" id="formEmail" class="form-control" />
+                                <input type="email" id="formEmail" placeholder="MychaelIsDiff@gmail.com" class="form-control" />
                                 <label class="form-label" for="formEmail">Your Email</label>
                               </div>
                             </div>
@@ -92,7 +95,7 @@
                             <div class="d-flex flex-row align-items-center mb-4">
                               <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
                               <div class="form-outline flex-fill mb-0">
-                                <input type="password" id="formPass" class="form-control" />
+                                <input type="password" id="formPass" class="form-control" placeholder="--------------------" />
                                 <label class="form-label" for="formPass">Password</label>
                               </div>
                             </div>
@@ -100,7 +103,7 @@
                             <div class="d-flex flex-row align-items-center mb-4">
                               <i class="fas fa-key fa-lg me-3 fa-fw"></i>
                               <div class="form-outline flex-fill mb-0">
-                                <input type="password" id="formPass" class="form-control" />
+                                <input type="password" id="formPass" class="form-control" placeholder="--------------------"/>
                                 <label class="form-label" for="formPass">Repeat your password</label>
                               </div>
                             </div>
@@ -121,8 +124,8 @@
                         </div>
                         <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
           
-                          <img src="C:\BootCamp\Project1\Pictures\Signup.png"
-                            class="img-fluid rounded-3" alt="Image">
+                          <img src="C:\BootCamp\Week2\Project1\Pictures\Signup.png"
+                            class="img-fluid rounded-3" data-aos="zoom-in" alt="Image">
           
                         </div>
                       </div>
@@ -132,6 +135,12 @@
               </div>
             </div>
           </section>
+
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+          <script>
+              AOS.init();
+            </script>
+
 </body>
 
 <footer class="footer bg-dark text-center text-white text-lg-start ">

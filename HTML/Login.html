@@ -6,7 +6,7 @@
        
     <link rel="stylesheet" href="../CSS/styling.css">
 
-    <link rel="icon" type="image/x-icon" href="C:\BootCamp\Project1\Pictures\favicon_io\favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="C:\BootCamp\Week2\Project1\Pictures\favicon_io\favicon-16x16.png">
     
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
@@ -16,6 +16,8 @@
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -24,7 +26,7 @@
      <nav class = "navbar navbar-expand-sm  navbar-dark bg-dark p-4">
 
         <a href = "LandingPage.html" class = "navbar-brand text-white mb-0 h1">
-            <img src = "C:\BootCamp\Project1\Pictures\profile.png" class="rounded-circle" alt = "Profile" 
+            <img src = "C:\BootCamp\Week2\Project1\Pictures\profile.png" class="rounded-circle" alt = "Profile" 
             width = "40" height = "40"> Home Page             
         </a>
 
@@ -72,13 +74,13 @@
                 </h1>
                 <!-- Email input -->
                 <div class="form-outline text-white mb-4">
-                  <input type = "email" id = "email" class="form-control" />
+                  <input type = "email" id = "email" class="form-control" placeholder="MychaelIsDiff@gmail.com" required/>
                   <label class = "form-label" for="email">Email address</label>
                 </div>
               
                 <!-- Password input -->
                 <div class = "form-outline text-white mb-4">
-                  <input type = "password" id = "pass" class = "form-control" />
+                  <input type = "password" id = "pass" class = "form-control" placeholder="--------------------" required/>
                   <label class = "form-label" for = "pass">Password</label>
                 </div>
               
@@ -93,7 +95,6 @@
                   </div>
               
                   <div class = "col ">
-                    <!-- Simple link -->
                     <a class = "text-white" href = "#!">Forgot password?</a>
                   </div>
                 </div>
@@ -101,6 +102,7 @@
                 <!-- Submit button -->
                 <button type = "button" class = "btn btn-light btn-outline-secondary btn-block text-dark mb-4">Sign in</button>
               
+                <!--sir I cant import the buttons, so i just let it the code in there to create a little design-->
                 <!-- Register buttons -->
                 <div class = "text-center text-white">
                   <p>Not a member? <a class = "text-white" href="RegistrationPage.html">Register</a></p>
@@ -124,12 +126,17 @@
               </form>
         </div>
         <div class = "col-5 mt-5 ">
-            <img src="C:\BootCamp\Project1\Pictures\Login.png" class="img-fluid rounded-4 mx-auto d-block mt-3 pt-5 b-5" alt="Login">
+            <img src="C:\BootCamp\Week2\Project1\Pictures\Login.png" class="img-fluid rounded-4 mx-auto d-block mt-3 pt-5 b-5" data-aos="fade-left" alt="Login">
         </div>
         <div class = "col-1">
         </div>
         </div>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 
